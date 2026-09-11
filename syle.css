@@ -55,7 +55,11 @@ a:hover {
 
 .logo {
     width: 40%;
+    max-width: 430px;
+    /*terceira aula*/
+    display: inline-block;
     vertical-align: middle;
+    margin: 0 5%;
 }
 
 .texto {
@@ -118,8 +122,8 @@ footer {
 }
 .img-dog{
     display: block;
-    width: 300px;
-    height: 250px;
+    width: 70%;
+    height: 450px;
     object-fit: cover;
     margin: 80px auto 0 auto;
     border-radius: 15px;
@@ -167,5 +171,7 @@ footer {
 .titulo {
     font-size: 30px;
 }
-
+.img-dog{
+    max-height: 250px;
+}
 }
