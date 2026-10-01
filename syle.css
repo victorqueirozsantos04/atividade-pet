@@ -34,6 +34,19 @@ a {
 a:hover {
     opacity: 0.8;
 }
+.link-menu {
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+cursor: pointer;
+margin: 0 23px 0 0;
+color: #4A4A4A;
+transition: opacity 0.35;
+text-decoration: none;
+}
+.link-menu:hover{
+    opacity: 0.8;
+}
 
 .boton-login {
     width: 130px;
@@ -128,7 +141,33 @@ footer {
     margin: 80px auto 0 auto;
     border-radius: 15px;
 }
+.servicos{
 
+}
+.h2-servicos{
+
+}
+.preco{
+
+}
+.lista-servicos{
+    width: 200px;
+    /* inline <a> <span> <img>*/
+    /* <p> <h1> <div> block*/
+    display:block;
+    text-decoration: none;
+    color: #515151;
+    border: 2px solid ;
+    margin 0 20px;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+.lista-servicos{
+    
+}
+.img-card{
+    width: 100%;
+}
 @media(max-width:768px) {
     header {
         margin: 30px 0px 144px 0px;
