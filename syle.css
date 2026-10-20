@@ -186,6 +186,25 @@ footer {
     width: 70%;
 }
 
+.agenda {
+    width: 140px;
+    height: 44px;
+    border-radius: 200px;
+    cursor: pointer;
+    background: #1460a7;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(232, 237, 241);
+    transition: scale 0.2s;
+}
+
+.agenda:hover {
+    opacity: o.3;
+    scale: 1.02;
+}
+
+
 @media(max-width:768px) {
     header {
         margin: 0px 0px 30px 0;
