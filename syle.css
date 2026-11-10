@@ -109,7 +109,7 @@ main {
 }
 
 .botao-explore:hover {
-    background-color: rgb(32, 32, 116)3;
+    background-color: rgb(20, 20, 126)3;
 
 }
 
@@ -138,11 +138,11 @@ main {
 
 footer {
     text-align: center;
-    background-color: rgb(93, 95, 241);
+    background-color: rgb(136, 137, 158);
     padding: 80px 0 80px 0;
     font-size: 14px;
     margin-top: 100px;
-    color: #f0f0f0
+    color: #1e1e1e
 }
 
 .img-dog {
@@ -150,19 +150,43 @@ footer {
     width: 300px;
     height: 250px;
     object-fit: cover;
-    margin: 80px auto 0 auto;
+    margin: 10px auto 0 auto;
     border-radius: 15px;
+
+}
+/*video*/
+.sobre{
+    padding: 50px 0;
+    background-color: #1460a7;
+
+}
+.video{
+    display: block;
+    margin:0 auto 0 auto;
+    width: 70%;
+    max-width: 640px;
+    height: 740px;
+    border-radius: 15px;
+}
+
+.tiulo-video{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #85838d;
+
 
 }
 
 .servicos {
     padding: 10px 0 100px 0;
 
+
 }
 
 .h2-serviços {
     font-weight: 500;
 }
+
 
 .lista-serviços {
     width: 200px;
@@ -242,9 +266,25 @@ footer {
         width: 80%;
         text-align: center;
     }
+    .img-dog{
+        max-width: 250px;
+    }
+    .video{
+    display: block;
+    margin:0 auto 0 auto;
+    width: 70%;
+    max-width: 640px;
+    height: 740px;
+    border-radius: 15px;
+}
 
     .titulo {
         font-size: 30px;
+    }
+    .texto{
+        width: 80%;
+        /*adicionar*/
+        text-align: center;
     }
 
     .h2-servicos {
